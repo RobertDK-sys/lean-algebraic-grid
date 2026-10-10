@@ -1,0 +1,7 @@
+name = "lean_algebraic_grid"
+version = "0.1.0"
+defaultFacets = [ "leanDefault" ]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
