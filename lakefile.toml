@@ -1,12 +1,11 @@
 name = "lean_algebraic_grid"
 version = "0.1.0"
-defaultFacets = [ "leanDefault" ]
+defaultTargets = ["LeanAlgebraicGrid"]
 
 [[require]]
 name = "mathlib"
 scope = "leanprover-community"
 
-[lean_lib]
+[[lean_lib]]
 name = "LeanAlgebraicGrid"
-# S'assure que tous les modules du répertoire (y compris WZAS) sont inclus
-roots = ["LeanAlgebraicGrid", "WZAS", "AlgebraicGrid", "ResonanceAnalysis"]
+roots = ["AlgebraicGrid", "HarmonicResonance", "PilotDatabase", "ResonanceTheorems", "ResonanceAnalysis", "WZAS"]
