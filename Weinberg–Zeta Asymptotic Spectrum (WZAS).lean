@@ -1,3 +1,13 @@
+import Mathlib.Data.Real.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
+import Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse
+import Mathlib.Analysis.SpecialFunctions.Log.Basic
+import Mathlib.Analysis.SpecialFunctions.Pow.Real
+import Mathlib.Analysis.SpecialFunctions.Exponential
+import Mathlib.Analysis.SpecialFunctions.Complex.Log
+import Mathlib.Data.Complex.ExponentialBounds
+import Mathlib.Analysis.Real.Pi.Bounds
+
 /-!
 # Weinberg–Zeta Asymptotic Spectrum (WZAS)
 
@@ -7,14 +17,6 @@ autour de l'exposant critique Re(s) = 1/2.
 Note : ce fichier est un cadre de calcul. Il ne démontre pas l'hypothèse de
 Riemann (aucun énoncé sur `riemannZeta` n'y figure).
 -/
-
-import Mathlib.Data.Real.Basic
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Analysis.SpecialFunctions.Log.Basic
-import Mathlib.Analysis.SpecialFunctions.Exponential
-import Mathlib.Analysis.SpecialFunctions.Complex.Log
-import Mathlib.Data.Complex.ExponentialBounds
-import Mathlib.Analysis.Real.Pi.Bounds
 
 namespace WZAS
 
