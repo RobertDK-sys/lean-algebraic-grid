@@ -8,4 +8,4 @@ scope = "leanprover-community"
 
 [[lean_lib]]
 name = "LeanAlgebraicGrid"
-roots = ["AlgebraicGrid", "HarmonicResonance", "PilotDatabase", "ResonanceTheorems", "ResonanceAnalysis", "WZAS", "Weinberg–Zeta Asymptotic Spectrum (WZAS)"]
+roots = ["AlgebraicGrid", "HarmonicResonance", "PilotDatabase", "ResonanceTheorems", "WZAS", "WeinbergZetaAsymptoticSpectrum"]
